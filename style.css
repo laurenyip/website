@@ -1,0 +1,247 @@
+/* logo image */
+
+.logo {
+  height: 5vh;
+  background: url("newlogo1.jpg");
+}
+
+body {
+  margin-top: 20px; /* Adjust the top margin as needed */
+  margin-right: 350px; /* Adjust the right margin as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  margin-left: 350px; /* Adjust the left margin as needed */
+}
+
+p {
+  font-family: "URWGeometricRegular", sans-serif;
+  font-weight: 100;
+}
+
+.btn-primary {
+  color: #0a0034; /* Set the text color for the blue button */
+  /* You can add more styles here if needed */
+}
+
+/* hero background image */
+.bgimage {
+  height: 90vh;
+  background: url("images/env_back.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  height: 5vh;
+  background: url("images/header.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 1000; /* Make sure it has a higher z-index */
+}
+
+h1.text-left {
+  font-family: "Moto", serif;
+  text-align: left;
+  /* You can change the color (#000) and border width (2px) as needed */
+  padding: 10px; /* Adjust the padding to create space between the text and the border */
+  display: inline-block; /* Ensures that the border wraps around the text */
+}
+
+.navbar.fixed-top {
+  height: 14vh;
+  z-index: 10; /* Lower z-index than the header */
+  font-size: large;
+}
+
+.navbarDark .navbar-nav .nav-link {
+  color: rgb(31, 72, 137, 223);
+  opacity: 100;
+  font-family: "Moto", serif;
+
+  padding: 20px; /* Adjust the padding around the navbar items */
+  margin-top: 30px; /* Adjust the margin at the top to move the text lower */
+}
+
+.navbarDark {
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Change to your desired background color */
+  color: rgb(0, 0, 0); /* Add any other styles you want */
+
+  opacity: 0.7;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #001c80;
+}
+.servicesText:hover {
+  border: 1px solid #7167ff;
+}
+
+/* social media icons styling */
+.social-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover {
+  color: rgb(239, 236, 194);
+}
+.fab {
+  color: #ffffff;
+}
+/* footer styling */
+#footer {
+  background: url("images/footer.jpg");
+  text-align: center;
+}
+
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prevR,
+.nextR {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(255, 79, 220, 0.366);
+}
+
+/* Position the "next button" to the right */
+.nextR {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevR:hover,
+.nextR:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: rgb(8, 0, 84);
+  font-size: 15px;
+  font-weight: normal;
+  padding: 8px 16px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgb(112, 162, 255);
+}
+
+.imageAboutPage {
+  max-height: 160px; /* You can adjust the value to your preference */
+  width: auto; /* To maintain the aspect ratio */
+}
+
+@font-face {
+  font-family: "Chobani";
+  src: url("fonts/Chobani.ttf") format("truetype"); /* Specify the correct path to your font file */
+
+  /* Add other font formats as needed */
+}
+
+@font-face {
+  font-family: "Apercu";
+  src: url("fonts/Apercu.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "URWGeometricHeavy";
+  src: url("fonts/URWGeometricHeavy.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "URWGeometricSemiBold";
+  src: url("fonts/URWGeometricSemiBold.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "Moto";
+  src: url("fonts/Moto.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "URWGeometricRegular";
+  src: url("fonts/URWGeometricRegular.otf") format("OpenType");
+}
