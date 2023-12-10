@@ -88,6 +88,16 @@ h1.text-left {
   opacity: 0.7;
 }
 
+.overlay-image {
+  position: absolute;
+  top: 48%;
+  left: 24%;
+  width: 10%;
+  height: 22%;
+  object-fit: 20; /* Maintain aspect ratio and cover the container */
+  z-index: 1; /* Set the overlay image above the background image */
+}
+
 /* services section css */
 .servicesText.card {
   height: 280px;
