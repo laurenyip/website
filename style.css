@@ -28,8 +28,8 @@ p {
   font-weight: 100;
 }
 
-.btn-primary {
-  color: #0a0034; /* Set the text color for the blue button */
+.btn btn-success {
+  color: #ffffff; /* Set the text color for the blue button */
   /* You can add more styles here if needed */
 }
 
@@ -133,14 +133,15 @@ h1.text-center {
   font-size: 30px;
   cursor: pointer;
 }
-.fa-facebook:hover,
+.fa-file:hover,
 .fa-instagram:hover,
 .fa-resume:hover,
 .fa-linkedin:hover,
 .fa-twitch:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 162, 221);
 }
-.fab {
+.fab,
+.fa-solid  {
   color: #092c79;
 }
 /* footer styling */
