@@ -63,6 +63,7 @@ h1.text-left {
   display: inline-block; /* Ensures that the border wraps around the text */
 }
 
+
 h1.text-center {
   font-family: "Moto", serif;
   text-align: center;
@@ -87,6 +88,9 @@ h1.text-center {
   margin-top: 30px; /* Adjust the margin at the top to move the text lower */
 }
 
+.nav-link:hover {
+  color: rgb(255, 162, 221);
+}
 .navbarDark {
   background-color: rgb(
     255,
@@ -137,6 +141,10 @@ h1.text-center {
 .fa-palette:hover,
 .fa-wand:hover,
 .fa-instagram:hover,
+.fa-github:hover,
+.fa-palette:hover,
+.fa-wand-magic-sparkles:hover,
+.fa-spotify:hover,
 .fa-resume:hover,
 .fa-linkedin:hover,
 .fa-twitch:hover {
