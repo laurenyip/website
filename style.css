@@ -63,6 +63,15 @@ h1.text-left {
   display: inline-block; /* Ensures that the border wraps around the text */
 }
 
+h1.text-center {
+  font-family: "Moto", serif;
+  text-align: center;
+  font-size: 20px;
+  /* You can change the color (#000) and border width (2px) as needed */
+  /* Adjust the padding to create space between the text and the border */
+  display: inline-block; /* Ensures that the border wraps around the text */
+}
+
 .navbar.fixed-top {
   height: 14vh;
   z-index: 10; /* Lower z-index than the header */
@@ -145,7 +154,6 @@ h1.text-left {
 #services,
 #portfolio,
 #contact {
-  
   margin-top: 4rem;
   padding: 2rem;
   max-width: 1100px;
