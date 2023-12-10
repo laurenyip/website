@@ -63,7 +63,6 @@ h1.text-left {
   display: inline-block; /* Ensures that the border wraps around the text */
 }
 
-
 h1.text-center {
   font-family: "Moto", serif;
   text-align: center;
@@ -196,9 +195,10 @@ h1.text-center {
   cursor: pointer;
   position: absolute;
   top: 40%;
-
-  padding: 10px;
-  color: rgb(202, 0, 0);
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(40, 0, 202);
   font-weight: bold;
   font-size: 12px;
   transition: 0.6s ease;
@@ -214,10 +214,25 @@ h1.text-center {
   border-radius: 3px 0 0 3px;
 }
 
+.nextA {
+  color: rgb(40, 0, 202);
+  background-color: rgba(255, 79, 220, 0.366);
+  padding: 3px;
+  padding-right: 9px;
+  padding-left: 9px;
+
+  border-radius: 3px 0 0 3px;
+  user-select: none;
+}
+
+.nextA:hover {
+  background-color: rgba(93, 150, 255, 0.811);
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prevR:hover,
 .nextR:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(93, 150, 255, 0.811);
 }
 
 /* Caption text */
