@@ -6,7 +6,7 @@
 }
 
 body.main {
-  background-color: rgb(247, 240, 228);
+  background-color: rgb(255, 255, 255);
   /* border: rgb(18, 79, 120, 0.8) solid 1.5vw;*/
 }
 
@@ -23,12 +23,12 @@ body.main {
   width: auto; /* To maintain the aspect ratio */
 }
 
-.overlay-env {
-  position: absolute;
-  top: 48%;
-  left: 24%;
-  width: 10%;
-  height: 22%;
+.overlay-home {
+  position: relative;
+  top: 24%;
+  left: 12%;
+  width: 5%;
+  height: 11%;
   object-fit: 20; /* Maintain aspect ratio and cover the container */
   z-index: 1; /* Set the overlay image above the background image */
 }
@@ -70,7 +70,9 @@ h1.text-center {
 
 /* Centered text */
 .centered {
-  position: absolute;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -86,6 +88,23 @@ p {
 .btn btn-success {
   color: #ffffff; /* Set the text color for the blue button */
   /* You can add more styles here if needed */
+}
+
+/* ~~~ CONTENT CONTAINER STYLING ~~~ */
+
+.content {
+  max-width: 567px; /* Adjust as needed */
+  margin: auto;
+  border: #001c80 solid 1px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 0;
 }
 
 /* ~~~ NAVBAR STYLING ~~~ */
