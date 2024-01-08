@@ -51,11 +51,16 @@ body.main {
   font-size: large;
 }
 
-p1 {
+.left-aligned {
+  text-align: left;
+}
+
+.centered p1 {
   margin: 1px 0; /* Add some margin between paragraphs */
   font-family: "Moto", serif;
-  font-size: large;
+  font-size: medium;
   font-weight: medium;
+  justify-content: left;
 }
 
 h1.text-left {
@@ -111,7 +116,7 @@ p {
   max-width: 567px; /* Adjust as needed */
   margin: auto;
   border: #001c80 solid 1px;
-  padding-inline: 30px;
+  padding-inline: 3%;
 }
 
 .container {
@@ -119,7 +124,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 110vh;
+  height: 120vh;
   margin: 0;
 }
 
