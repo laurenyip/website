@@ -83,8 +83,8 @@ h1.text-center {
 /* Centered text */
 .centered {
   position: relative;
-  padding-top: 260px;
-  padding-bottom: 20px;
+  padding-top: 90%;
+  padding-bottom: 2%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -116,7 +116,7 @@ p {
   max-width: 567px; /* Adjust as needed */
   margin: auto;
   border: #001c80 solid 1px;
-  padding-inline: 3%;
+  padding-inline: 5%;
 }
 
 .container {
@@ -124,7 +124,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120vh;
+  height: 170vh;
   margin: 0;
 }
 
@@ -220,7 +220,7 @@ p {
 /* additional styling for positioning */
 .d-flex.justify-content-center {
   position: relative;
-  padding-left: 650px; /* Adjust as needed for the desired spacing */
+  padding-top: 10%;
 }
 
 .fa-file:hover,
