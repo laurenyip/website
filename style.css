@@ -105,8 +105,8 @@ p {
   font-weight: 100;
 }
 
-.btn btn-success {
-  color: #ffffff; /* Set the text color for the blue button */
+.btn.btn-success {
+  color: #ffb3d8; /* Set the text color for the blue button */
   /* You can add more styles here if needed */
 }
 
@@ -145,7 +145,7 @@ p {
   margin-top: 30px; /* Adjust the margin at the top to move the text lower */
 }
 
-.nav-link:hover {
+.nav-item:hover {
   color: rgb(255, 162, 221);
 }
 .navbarDark {
@@ -176,45 +176,25 @@ p {
 /* spacing on all sections */
 #about,
 #services,
-#portfolio,
-#contact {
+#portfolio {
   margin-top: 4rem;
   padding: 2rem;
   max-width: 1100px;
   background-color: rgb(255, 255, 255);
-}
-#contact {
-  padding-bottom: 4rem;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* services section css */
-.servicesText.card {
-  height: 280px;
-  cursor: pointer;
-}
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
-.card-title {
-  text-align: center;
-}
-.card:hover .servicesIcon {
-  color: #001c80;
-}
-.servicesText:hover {
-  border: 1px solid #7167ff;
-}
-
 /* social media icons styling */
 .social-icons {
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
+  text-align: center;
+}
+.social-icons:hover {
+  color: rgb(255, 162, 221);
 }
 
 /* additional styling for positioning */
@@ -223,21 +203,6 @@ p {
   padding-top: 10%;
 }
 
-.fa-file:hover,
-.fa-palette:hover,
-.fa-wand:hover,
-.fa-instagram:hover,
-.fa-envelope:hover,
-.fa-github:hover,
-.fa-mail:hover,
-.fa-palette:hover,
-.fa-wand-magic-sparkles:hover,
-.fa-spotify:hover,
-.fa-resume:hover,
-.fa-linkedin:hover,
-.fa-twitch:hover {
-  color: rgb(255, 162, 221);
-}
 .fab,
 .fa-solid {
   color: #092c79;
