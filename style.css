@@ -124,14 +124,18 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 170vh;
+
   margin: 0;
+}
+
+main {
+  margin-top: 10%; /* Adjust as needed based on your design */
+  padding: 20px;
 }
 
 /* ~~~ NAVBAR STYLING ~~~ */
 
 .navbar.fixed-top {
-  height: 14vh;
   z-index: 10; /* Lower z-index than the header */
   font-size: large;
 }
@@ -207,6 +211,10 @@ p {
 .fa-solid {
   color: #092c79;
 }
+.fab:hover,
+.fa-solid:hover {
+  color: rgb(255, 162, 221);
+}
 
 /* ~~~ SLIDESHOW CSS ~~~ */
 /* Slideshow container */
@@ -231,7 +239,7 @@ p {
 .prevR,
 .nextR {
   cursor: pointer;
-  position: absolute;
+  position: rel;
   top: 40%;
   padding: 3px;
   padding-left: 8px;
@@ -248,7 +256,6 @@ p {
 
 /* Position the "next button" to the right */
 .nextR {
-  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
