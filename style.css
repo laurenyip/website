@@ -167,7 +167,7 @@ main {
   background: url("images/portfolio/portHeader.jpg");
   background-size: cover;
   position: relative;
-  z-index: 1000; /* Make sure it has a higher z-index */
+  z-index: 100; /* Make sure it has a higher z-index */
 }
 
 /* footer styling */
