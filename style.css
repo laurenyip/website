@@ -82,6 +82,7 @@ body.main {
 h1.text-left {
   font-family: "Moto", serif;
   text-align: left;
+  background-color: #FFC2C2;
   /* You can change the color (#000) and border width (2px) as needed */
   /* Adjust the padding to create space between the text and the border */
   display: inline-block; /* Ensures that the border wraps around the text */
@@ -122,12 +123,12 @@ p {
 }
 
 .btn.btn-success {
-  color: rgb(255, 162, 191); /* Set the text color for the blue button */
+  color: #ffb2b2; /* Set the text color for the blue button */
   /* You can add more styles here if needed */
 }
 /* Assuming .btn-outline-secondary is the class for your button */
 .btn.btn-outline-secondary:hover {
-  background-color: rgb(255, 162, 191);
+  background-color: #ffb2b2;
   color: /* Specify the text color you want on hover */ ;
 }
 
@@ -169,9 +170,6 @@ main {
   margin-top: 30px; /* Adjust the margin at the top to move the text lower */
 }
 
-.nav-item:hover {
-  color: rgb(255, 162, 221);
-}
 .navbarDark {
   background-color: rgb(
     255,
@@ -218,7 +216,7 @@ main {
   text-align: center;
 }
 .social-icons:hover {
-  color: rgb(255, 162, 191);
+  color: #ffb2b2;
 }
 
 /* additional styling for positioning */
@@ -233,7 +231,7 @@ main {
 }
 .fab:hover,
 .fa-solid:hover {
-  color: rgb(255, 162, 191);
+  color: #ffb2b2;
 }
 
 /* ~~~ SLIDESHOW CSS ~~~ */
@@ -270,7 +268,7 @@ main {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: rgba(255, 79, 220, 0.366);
+  background-color: #ffb2b2;
   z-index: 2; /* Ensure buttons appear above images */
 }
 
@@ -281,7 +279,7 @@ main {
 
 .nextA {
   color: rgb(40, 0, 202);
-  background-color: rgba(255, 79, 220, 0.366);
+  background-color: #FFC2C2;
   padding: 3px;
   padding-right: 9px;
   padding-left: 9px;
