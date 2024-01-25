@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Projects</title>
+    <title>Design Portfolio - LY</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- linking css file -->
@@ -21,58 +21,92 @@
     ></script>
   </head>
   <body class="main">
-    <!-- topbar -->
-    <div class="header fixed-top">
-      <div class="container-fluid">
-        <a href="index.html" class="btn">
-          <img src="images/logo5.png" alt="Overlay head" class="overlay-head" />
-        </a>
-      </div>
-    </div>
+    <!-- home -->
 
-    <section id="home" class="mx-auto mx-5">
-      <div class="container mt-2 pt-3">
-        <nav class="navbar navbar-expand-lg navbarScroll fixed-top">
-          <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home | </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html#about"> About |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services"> Projects | </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html"> Portfolio |</a>
-                </li>
-              </ul>
-            </div>
+    <section id="nav" class="mx-auto mx-5">
+      <nav class="navbar navbar-expand-lg navbarScroll fixed-top">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about"> About |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html"> Projects | </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"> Portfolio </a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+    </section>
 
-      <!-- about section-->
-      <section id="about" class="mx-auto mx-5">
-        <div class="container mt-2 pt-3">
-          <div class="row mt-3">
-            <div class="swipe mt-3">
-              <img src="images/portfolio/hydrangea.jpg" style="width: 40%" />
-              <img src="images/portfolio/flowers.jpg" style="width: 40%" />
-              <img src="images/portfolio/lily.jpg" style="width: 40%" />
-              <img src="images/portfolio/tide.jpg" style="width: 40%" />
-              <img src="images/portfolio/backyard.jpg" style="width: 40%" />
-              <img src="images/portfolio/dance.jpg" style="width: 40%" />
-              <img src="images/portfolio/sunflower.jpg" style="width: 40%" />
+    <main>
+      <section id="home" class="mx-auto mx-5">
+        <div class="content">
+          <img src="images/header.jpg" alt="back" class="centeredH" />
 
-              . . .
+          <div class="middle">
+            <br />
+            <p>Coding Projects</p>
+            <br />
+
+            <div class="left-aligned">
+              <a
+                href="https://devpost.com/software/emergency-response-bc-erbc"
+                target="_blank"
+              >
+                <button class="btn btn-outline-secondary">
+                  Emergency Response BC
+                </button>
+              </a>
+              <br />
+              <br />
+
+              <p1
+                >This was my first hackathon project! With my amazing team I
+                helped design and implement a functional webapp that can take
+                location data and output a list of the nearest hospitals and
+                their emergency room wait time. [Jan 2024 ][nwHACKS 2024]</p1
+              >
+              <br />
+              <br />
+              <a href="laurenyip.com" target="_blank">
+                <button class="btn btn-outline-secondary">This Website!</button>
+              </a>
+              <br />
+              <br />
+
+              <p1
+                >was coded with the help of HTML, Bootstrap CSS, JS, and lots of
+                edits... [Dec 2023]</p1
+              >
+
+              <div class="col-lg-8 mt-4">
+                <div class="card portfolioContent">
+                  <div class="card-body text-center">
+                    <h1 class="text-center">GitHub</h1>
+                    <p>See the repositories!</p>
+                    <div class="social-icons mt-2">
+                      <a href="https://github.com/laurenyip" target="_blank">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <br />
+                      <br />
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <p></p>
 
       <!-- footer section-->
       <footer id="footer">
@@ -88,6 +122,6 @@
 
       <!-- load javascript after loading all html content -->
       <script src="script/script.js"></script>
-    </section>
+    </main>
   </body>
 </html>

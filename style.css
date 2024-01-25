@@ -19,7 +19,7 @@ body.main {
 }
 
 .imageAboutPage {
-  max-height: 100px; /* You can adjust the value to your preference */
+  /* You can adjust the value to your preference */
   width: auto; /* To maintain the aspect ratio */
 }
 
@@ -30,7 +30,7 @@ body.main {
   width: 5%;
   height: 11%;
   object-fit: 20; /* Maintain aspect ratio and cover the container */
-  z-index: 1; /* Set the overlay image above the background image */
+  z-index: 1; /* Set the overlay "width: 100%; max-width: 100%; height: auto;" above the background image */
 }
 
 .overlay-head {
@@ -52,6 +52,20 @@ body.main {
   font-weight: 300;
 }
 
+.middle p {
+  margin: 1px 0; /* Add some margin between paragraphs */
+  font-family: "Moto", serif;
+  text-align: center;
+  font-size: large;
+}
+
+.middle p1 {
+  margin: 1px 0; /* Add some margin between paragraphs */
+  font-family: "URWGeometricRegular", sans-serif;
+  text-align: left;
+  font-size: medium;
+}
+
 .left-aligned {
   text-align: left;
   font-weight: 100;
@@ -61,7 +75,7 @@ body.main {
   margin: 1px 0; /* Add some margin between paragraphs */
   font-family: "Moto", serif;
   font-size: medium;
-  font-weight: regular;
+  font-weight: lighter;
   justify-content: left;
 }
 
@@ -110,6 +124,11 @@ p {
 .btn.btn-success {
   color: rgb(255, 162, 191); /* Set the text color for the blue button */
   /* You can add more styles here if needed */
+}
+/* Assuming .btn-outline-secondary is the class for your button */
+.btn.btn-outline-secondary:hover {
+  background-color: rgb(255, 162, 191);
+  color: /* Specify the text color you want on hover */ ;
 }
 
 /* ~~~ CONTENT CONTAINER STYLING ~~~ */
